@@ -9,7 +9,7 @@
     
 ### Step 2 : Installing Required Packages [Python 3.6]
 
-    1. OpenCV     ---> '3.4.0'     [ Used to handle image operations like : reading the image , resizing , reshaping ]
+    1. OpenCV     ---> '3.4.0'     [ Used to handle image operations like : reading the image , resizing , reshaping]
     2. numpy      ---> '1.14.4'    [ Image that is read will be stored in an numpy array ]
     3. TensorFlow ---> '1.8.0'     [ Tensorflow is the backend for Keras ]
     4. Keras      ---> '2.1.6'     [ Keras is used to implement the CNN ]
@@ -19,7 +19,8 @@
     Note : Spyder is used to develop the code. Set the working Directory Correctely.
            Open the trained_model.py file and set the image you want to test [Ref. Line Number 24 ]
            
-    This will predict the output for the image you have specified. Once you have understood the basic working of the model, its now time       to build the classifier from the scratch.
+    This will predict the output for the image you have specified. 
+    Once you have understood the basic working of the model, its now time to build the classifier from the scratch.
     
 ### Step 4 : Building the Classifier
 
