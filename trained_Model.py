@@ -24,12 +24,15 @@ print("Loaded model from disk")
 loaded_model.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
 
 # Step 5: load the image you want to test
-img = cv2.imread('./Dataset/dog_test2.jpg')
-img = cv2.resize(img, (50,50))
-img = img.reshape(1, 50, 50, 3)
+image = cv2.imread('./Dataset/dog_test2.jpg')
+image = cv2.resize(image, (50,50))
+image = image.reshape(1, 50, 50, 3)
 
+cv2.imshow("Input Image", image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 # Step 6: Predict to which class your input image has been classified
-result = loaded_model.predict_classes(img)
+result = loaded_model.predict_classes(image)
 if(result[0][0] == 1):
     print("I guess this must be a Dog!")
 else:
