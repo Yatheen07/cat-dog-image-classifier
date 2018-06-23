@@ -26,7 +26,7 @@
 
     Steps involved in building a classifier is briefed in classifier.py
     13 actual substeps are involved in building your CNN! 
-    13 reasons why? :-p
+    13 reasons how? :-p
     This will build the model and save the trained model as a Json file. 
     The weights of the trained model are stored in a seperate file.
     
